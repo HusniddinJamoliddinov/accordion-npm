@@ -1,7 +1,3 @@
-const wrapper = document.querySelector(".wrapper");
-
-let items = ["salom", "hello", "namaste"];
-
 function collapse(wrapper, items = []){
   const body = document.body;
   body.style.backgroundColor = "rgb(97, 13, 175)";
@@ -71,7 +67,6 @@ function collapse(wrapper, items = []){
   init();
 }
 
-collapse(wrapper, items);
 
 module.exports = {
   collapse,

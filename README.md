@@ -2,7 +2,7 @@
 
 ## Install
 
-`npm i accordion-package`
+`npm i homework-accordion`
 
 ### using
 
